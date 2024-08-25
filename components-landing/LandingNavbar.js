@@ -45,7 +45,7 @@ const LandingNavbar = ({
               </div>
               <div className="w-60p items-center flex justify-end gap-4 max-xl:gap-2">
                 <span className="text-steel dark:text-white text-md max-xl:text-sm font-semibold cursor-pointer">
-                  <a href="https://app.recruitinn.ai/candidate-self">
+                  <a href="">
                     {" "}
                     Apply As A Candidate
                   </a>
@@ -57,18 +57,18 @@ const LandingNavbar = ({
                     Login
                     <ul className={styles.dropdown_menu}>
                       <li>
-                        <a href="https://app.recruitinn.ai/candidate-login">
+                        <a href="">
                           Login As Candidate
                         </a>
                       </li>
                       <li>
-                        <a href="https://app.recruitinn.ai/client-login">
+                        <a href="">
                           Login As Client
                         </a>
                       </li>
                     </ul>
                   </div>
-                  <a href="https://app.recruitinn.ai/client-signup">
+                  <a href="">
                     <button
                       className="px-10 py-3.5 text-steel dark:text-white text-md max-xl:text-sm btn-gradient rounded-3xl font-semibold"
                       style={{
@@ -155,22 +155,22 @@ const LandingNavbar = ({
                 {/* <span className="text-sm font-semibold max-lg:py-2 max-lg:border-b max-lg:border-darkPurple">
                 Apply As An Engineer
                 </span> */}
-                <a href="https://app.recruitinn.ai/candidate-self">
+                <a href="">
                   <button className="px-10 py-3.5 max-lg:py-2 max-lg:border-b max-lg:border-darkPurple text-sm bg-transparent font-semibold max-lg:block hidden">
                     Apply As An Engineer
                   </button>
                 </a>
-                <a href="https://app.recruitinn.ai/client-signup">
+                <a href="">
                   <button className="px-10 py-3.5 max-lg:py-2 text-sm bg-transparent max-lg:border-b max-lg:border-darkPurple font-semibold max-lg:block hidden">
                     Recruit A Talent
                   </button>
                 </a>
-                <a href="https://app.recruitinn.ai/client-login">
+                <a href="">
                   <button className="px-10 py-3.5 max-lg:py-2 max-lg:border-b max-lg:border-darkPurple text-sm bg-transparent font-semibold max-lg:block hidden">
                     Login as client
                   </button>
                 </a>
-                <a href="https://app.recruitinn.ai/candidate-login">
+                <a href="">
                   <button className="px-10 py-3.5 max-lg:py-2 max-lg:border-b max-lg:border-darkPurple text-sm bg-transparent font-semibold max-lg:block hidden">
                     Login as candidate
                   </button>

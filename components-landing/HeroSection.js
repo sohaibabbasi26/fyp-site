@@ -17,7 +17,7 @@ const HeroSection = () => {
               Screen the best In-Field talent now for your projects
             </h1>
 
-            <Link href="https://app.recruitinn.ai/client-signup">
+            <Link href="">
               <button
                 className={`max-md:mx-auto px-10 py-3.5 text-sm ${style["btn-gradient"]} rounded-3xl font-semibold w-[15rem] text-white`}
               >
