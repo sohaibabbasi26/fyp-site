@@ -1,0 +1,43 @@
+.clientPortal {
+  max-width: 1920px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  gap: 24px;
+  padding: 24px;
+  overflow-y: hidden;
+  margin: 0 auto;
+  /* max-height: 95vh; */
+  box-sizing: border-box;
+  height: 100dvh;
+  max-height: 1080px;
+}
+
+/* 1680px */
+@media screen and (max-width: 105em) {
+  .clientPortal {
+    padding: 16px;
+    gap: 16px;
+  }
+}
+
+/* 1440px */
+@media screen and (max-width: 90em) {
+  .clientPortal {
+    /* for now heigh, will look at maheight it has no effect rn */
+    /* height: calc(100vh - 35px); */
+  }
+}
+
+/* 1024px */
+@media screen and (max-width: 64em) {
+  .clientPortal {
+    /* for now heigh, will look at maheight it has no effect rn */
+    /* height: calc(100vh - 35px); */
+    gap: 12px;
+  }
+
+  .clientPortal h3 {
+    font-size: 0.9rem;
+  }
+}
